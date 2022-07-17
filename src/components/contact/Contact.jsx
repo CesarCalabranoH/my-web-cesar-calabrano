@@ -2,6 +2,10 @@ import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsWhatsapp} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
+import {FiTwitter} from 'react-icons/fi'
+import {BsInstagram} from 'react-icons/bs'
 
 const Contact = () => {
   return (
@@ -20,9 +24,17 @@ const Contact = () => {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon' />
             <h4>Whatsapp</h4>
-            <h5>+57 3204179557</h5>
+            <h5>+57 320 417 9557</h5>
             <a href="https://api.whatsapp.com/send?phone=573204179557" target='_blank'>Escribeme</a>
           </article>
+        </div>
+      </div>
+      <div className='social__options'>
+        <div className='social__option'>
+          <a href="https://www.linkedin.com/in/cesarcalabrano/" target="_blank"><BsLinkedin/></a>
+          <a href="https://github.com/CesarCalabranoH" target="_blank"><FaGithub/></a>
+          <a href="https://twitter.com/CesarCalabranoH" target="_blank"><FiTwitter/></a>
+          <a href="https://www.instagram.com/cala.trainer/" target="_blank"><BsInstagram/></a>
         </div>
       </div>
     </section>
