@@ -4,6 +4,10 @@ header {
   overflow: hidden;
 }
 
+.header__container h1 {
+  color: var(--color-tempo5);
+}
+
 .header__container {
   text-align: center;
   height: 100%;
@@ -33,12 +37,12 @@ header {
   content: "";
   width: 1px;
   height: 2rem;
-  background: var(--color-primary);
+  background: var(--color-tempo4);
 }
 
 /* ========== Me ========== */
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(var(--color-tempo2), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;

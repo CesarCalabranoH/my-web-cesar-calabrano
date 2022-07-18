@@ -12,7 +12,7 @@
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  background: var(--color-tempo2);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -23,7 +23,7 @@
 
 .contact__option:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-tempo5);
 }
 
 .contact__option-icon {
@@ -40,7 +40,7 @@
 .social__options {
   display: flex;
   justify-content: center;
-  background: var(--color-primary);
+  background: var(--color-tempo4);
   border-radius: 15px;
   padding-top: 3rem;
   padding-bottom: 7rem;
@@ -54,7 +54,7 @@
 }
 
 .social__option a{
-  color: var(--color-bg);
+  color: var(--color-tempo1);
 }
 
 /* ========== Media Queries (medium)========== */
@@ -69,8 +69,13 @@
 /* ========== Media Queries (Small)========== */
 @media screen and (max-width: 600px) {
   .container.contact__container {
-    grid-template-columns: 1fr;
     width: var(--container-width-sm);
     justify-content: center;
+  }
+  .contact__options {
+    flex-direction: column;
+  }
+  .contact__option {
+    width: 90vw;
   }
 }

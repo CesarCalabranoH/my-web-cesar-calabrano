@@ -35,63 +35,63 @@ const Experience = () => {
             <article className='experience__details'>
               <AiOutlineHtml5 className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4 className='title__experience'>HTML</h4>
                 <small><BsStarFill /><BsStarFill /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <DiCss3 className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4 className='title__experience'>CSS</h4>
                 <small><BsStarFill /><BsStarFill /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <IoLogoJavascript className='experience__details-icon' />
               <div>
-                <h4>Javascript</h4>
+                <h4 className='title__experience'>Javascript</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarFill /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillBootstrapFill className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4 className='title__experience'>Bootstrap</h4>
                 <small><BsStarFill /><BsStarHalf /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <FaVuejs className='experience__details-icon' />
               <div>
-                <h4>Vue</h4>
+                <h4 className='title__experience'>Vue</h4>
                 <small><BsStarFill /><BsStarHalf /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <FaReact className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4 className='title__experience'>React</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarHalf /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <FaAngular className='experience__details-icon' />
               <div>
-                <h4>Angular</h4>
+                <h4 className='title__experience'>Angular</h4>
                 <small><BsStarFill /><BsStarHalf /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <DiDotnet className='experience__details-icon' />
               <div>
-                <h4>.Net (C#)</h4>
+                <h4 className='title__experience'>.Net (C#)</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarHalf /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <AiFillGithub className='experience__details-icon' />
               <div>
-                <h4>Git / GitHub</h4>
+                <h4 className='title__experience'>Git / GitHub</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarHalf /><BsStar /></small>
               </div>
             </article>
@@ -104,63 +104,63 @@ const Experience = () => {
             <article className='experience__details'>
               <SiDjango className='experience__details-icon' />
               <div>
-                <h4>Django (Python)</h4>
+                <h4 className='title__experience'>Django (Python)</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarHalf /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiGoland className='experience__details-icon' />
               <div>
-                <h4>Golang</h4>
+                <h4 className='title__experience'>Golang</h4>
                 <small><BsStarFill /><BsStarHalf /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <FaNodeJs className='experience__details-icon' />
               <div>
-                <h4>NodeJs</h4>
+                <h4 className='title__experience'>NodeJs</h4>
                 <small><BsStarFill /><BsStarFill /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiSpring className='experience__details-icon' />
               <div>
-                <h4>Spring (Java)</h4>
+                <h4 className='title__experience'>Spring (Java)</h4>
                 <small><BsStarFill /><BsStar /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <GrMysql className='experience__details-icon' />
               <div>
-                <h4>MySql</h4>
+                <h4 className='title__experience'>MySql</h4>
                 <small><BsStarFill /><BsStar /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiMongodb className='experience__details-icon' />
               <div>
-                <h4>MongoDB</h4>
+                <h4 className='title__experience'>MongoDB</h4>
                 <small><BsStarFill /><BsStar /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiGooglecloud className='experience__details-icon' />
               <div>
-                <h4>Google Cloud</h4>
+                <h4 className='title__experience'>Google Cloud</h4>
                 <small><BsStarFill /><BsStar /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiMicrosoftazure className='experience__details-icon' />
               <div>
-                <h4>Azure</h4>
+                <h4 className='title__experience'>Azure</h4>
                 <small><BsStarFill /><BsStar /><BsStar /><BsStar /></small>
               </div>
             </article>
             <article className='experience__details'>
               <SiVisualstudiocode className='experience__details-icon' />
               <div>
-                <h4>VS Code</h4>
+                <h4 className='title__experience'>VS Code</h4>
                 <small><BsStarFill /><BsStarFill /><BsStarFill /><BsStar /></small>
               </div>
             </article>

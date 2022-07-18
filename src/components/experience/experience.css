@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-  background: var(--color-bg-variant);
+  background: var(--color-tempo2);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
@@ -14,14 +14,14 @@
 
 .experience__container > div:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-tempo5);
   cursor: default;
 }
 
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--color-primary);
+  color: var(--color-tempo3);
 }
 
 .experience__content {
@@ -37,7 +37,11 @@
 
 .experience__details-icon {
   margin-top: 6px;
-  color: var(--color-primary);
+  color: var(--color-tempo3);
+}
+
+.title__experience {
+  color: var(--color-tempo5);
 }
 
 /* ========== Media Queries (medium)========== */
