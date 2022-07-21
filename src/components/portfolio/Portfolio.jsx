@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
+import IMG3 from '../../assets/portfolio23.jpg'
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,8 +14,8 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Calculadora Fitness',
-    github: 'https://github.com',
+    title: 'Ganadores VIP',
+    github: 'https://calacode23.netlify.app/',
     demo: 'direccion demo'
   },
   {
@@ -28,9 +28,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Calculadora Fitness',
-    github: 'https://github.com',
-    demo: 'direccion demo'
+    title: 'Ganadores VIP',
+    github: 'https://github.com/CesarCalabranoH/GanadoresVIP',
+    demo: 'https://calacode23.netlify.app/'
   },
 ]
 
